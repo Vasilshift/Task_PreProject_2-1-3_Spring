@@ -11,13 +11,8 @@ public class AnimalsCage {
     @Qualifier("dog")
     private Animal animal;
 
-
-    private Timer nanoTime;
-
     @Autowired
-    @Qualifier("timer")
     private Timer timer;
-
 
     public void whatAnimalSay() {
         System.out.println("Say:");
@@ -31,16 +26,4 @@ public class AnimalsCage {
         return timer;
     }
 
-    public void setTimer(Timer timer) {
-        this.timer = timer;
-    }
-
-//    public Timer getTimer() {
-//
-//        return timer;
-//    }
-//
-//    public void setTimer(Timer timer) {
-//        this.timer = timer;
-//    }
 }
