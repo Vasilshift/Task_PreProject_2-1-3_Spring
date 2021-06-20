@@ -12,9 +12,6 @@ public abstract class Animal {
     private String dog;
     private String cat;
 
-    private List<String> list = new ArrayList<>();
-
-
 
     public Animal(@Qualifier("dog") String dog,
                   @Qualifier("cat") String cat) {
@@ -28,13 +25,13 @@ public abstract class Animal {
     public Animal() {
     }
 
-    public String getDog() {
-        return dog;
-    }
-
-    public String getCat() {
-        return cat;
-    }
+//    public String getDog() {
+//        return dog;
+//    }
+//
+//    public String getCat() {
+//        return cat;
+//    }
 
 
 }
