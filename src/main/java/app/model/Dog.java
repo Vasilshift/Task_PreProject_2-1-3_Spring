@@ -8,10 +8,10 @@ public class Dog extends Animal {
 //    public Dog(String dog) {
 //        super(dog);
 //    }
-//
-//    public Dog() {
-//        super();
-//    }
+
+    public Dog() {
+        super();
+    }
 
     @Override
     public String toString() {
